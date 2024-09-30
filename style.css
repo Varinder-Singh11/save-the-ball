@@ -1,0 +1,60 @@
+body {
+
+    height: 70vh;
+    margin: 0;
+    background-color: #656363;
+}
+
+.instructions{
+text-align: center;
+font-size: xx-large;
+/* Ui gradient used from uigradients.com */
+background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-radius: black  2px;
+
+
+
+
+}
+
+svg {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+#score-container{
+    text-align: center;
+}
+
+.svg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#gameEndMessage{
+    visibility: hidden;
+    color: rgb(30, 20, 20);
+    text-align: center;
+    font: 50px;
+    font-size: x-large;
+}
+
+#start-btn{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+
+    border-radius: 5px;
+}
+
+.btn-container{
+    text-align: center;
+}
+

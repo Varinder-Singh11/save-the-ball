@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="instructions" >
+<p  >Use Arrow-Up to move upwards And Arrow-Down to move down To Increase Score</p>
+</div>
+
+    <div class="svg-container">
+        <svg id="gameArea" width="700" height="500">
+            <circle id="player" cx="50" cy="200" r="20" fill="orange"></circle>
+        </svg>
+    </div>
+    <div id="score-container">
+        <h2>Score: <span id="score"></span></h2>
+    </div>
+
+    <div id="gameEndMessage">
+        <p><h3>Game Ended, Your Score: <span id="game-end-score"></span></h3></p>
+    </div>
+
+    <div class="btn-container">
+        <button id="start-btn" onclick="start()">Start Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
